@@ -1,0 +1,54 @@
+main {
+  padding: 64px 12px;
+  background-color: lightgray;
+}
+
+.s1-container {
+  border: 1px dashed hotpink;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.mytext1 {
+  height: 30px;
+  width: 180px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  outline: none;
+}
+
+.mytextarea {
+  resize: none;
+  border: none;
+  height: 150px;
+  width: 350px;
+}
+
+.mybutton {
+  height: 30px;
+  width: 180px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.mybutton:hover {
+  background-color: green;
+}
+
+.mytextarea::placeholder {
+  color: red;
+  font-size: 26px;
+}
